@@ -351,7 +351,13 @@
 		<script src="js/animation.js"></script>
 		<script src="js/footer-canvas.js"></script>
 		<script src="js/custom.js"></script>
-    <script src="js/sendmessage.js"></script>
+        <script src="js/sendmessage.js"></script>
+        <script>
+            var socket = io.connect();
+            socket.on('message', function(data) {
+                document.getElementById('message').innerHTML = data;
+            });
+        </script>
 	
 
 

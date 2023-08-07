@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background: #210e6c;
+    padding: 20px; /* Reduced padding for body */
+}
+
+.wrapper {
+    width: 350px; /* Reduced width for wrapper */
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px; /* Reduced padding for wrapper */
+    margin-top: 30px; /* Added margin to move it down */
+}
+
+.wrapper header {
+    color: #210e6c;
+    font-size: 24px; /* Reduced font size for header */
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px; /* Reduced margin for header */
+}
+
+.wrapper form {
+    height: 150px; /* Reduced height for form */
+    display: flex;
+    margin: 20px 0; /* Reduced margin for form */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px dashed #210e6c;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px; /* Reduced padding for form */
+}
+
+form :where(i, p) {
+    color: #210e6c;
+}
+
+form i {
+    font-size: 40px; /* Reduced font size for icon */
+}
+
+form p {
+    font-size: 14px; /* Reduced font size for text */
+    margin-top: 8px; /* Reduced margin for text */
+    text-align: center;
+}
+
+section {
+    margin-top: 20px; /* Reduced margin for sections */
+}
+
+section header {
+    font-size: 20px; /* Reduced font size for section header */
+    color: #210e6c;
+    margin-bottom: 10px; /* Reduced margin for section header */
+}
+
+section .row {
+    background: #e9f0ff;
+    margin-bottom: 10px; /* Reduced margin for rows */
+    padding: 10px; /* Reduced padding for rows */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .row i {
+    font-size: 20px; /* Reduced font size for icon */
+    color: #210e6c;
+}
+
+section .details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+section .details span {
+    font-size: 12px; /* Reduced font size for details */
+    color: #404040;
+    margin-top: 3px; /* Reduced margin for details */
+}
+
+.progress-bar {
+    height: 8px; /* Reduced height for progress bar */
+    width: 100%;
+    background: #e9f0ff;
+    border-radius: 5px;
+    margin-top: 8px; /* Reduced margin for progress bar */
+}
+
+.progress {
+    height: 100%;
+    width: 50%; /* Reduced width for progress */
+    background: #210e6c;
+    border-radius: inherit;
+}
+
+.uploaded-area {
+    max-height: 150px; /* Reduced max-height for uploaded area */
+    overflow-y: auto;
+    border-top: 1px solid #ddd;
+    padding-top: 8px; /* Reduced padding for uploaded area */
+    margin-top: 15px; /* Reduced margin for uploaded area */
+}
+
+.uploaded-area .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px; /* Reduced margin for rows */
+}
+
+.uploaded-area .row i {
+    font-size: 18px; /* Reduced font size for icon */
+    color: #210e6c;
+    margin-right: 8px; /* Reduced margin for icon */
+}
+
+.uploaded-area .details {
+    display: flex;
+    flex-direction: column;
+}
+
+.uploaded-area .details .filename {
+    font-size: 14px; /* Reduced font size for filename */
+    color: #404040;
+}
+
+.uploaded-area .details .size {
+    font-size: 10px; /* Reduced font size for size */
+    color: #999;
+}

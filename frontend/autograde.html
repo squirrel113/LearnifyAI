@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/autograde.css">
+    <title>LearnifyAI</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>AutoGrader</header>
+        <form action="#">
+            <input type="file" class="file-input" hidden>
+            <i class="fas fa-upload"></i>
+            <p>Drag and drop your files here<br>or click to browse.</p>
+        </form>
+        <section class="progress-area">
+            <header>Progress</header>
+            <div class="row">
+                <i class="fas fa-file"></i>
+                <div class="details">
+                    <span>File1.txt</span>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <i class="fas fa-file"></i>
+                <div class="details">
+                    <span>File2.jpg</span>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="uploaded-area">
+            <header>Uploaded Files</header>
+            <div class="row">
+                <i class="fas fa-file"></i>
+                <div class="details">
+                    <span class="filename">File1.txt</span>
+                    <span class="size">2.3 MB</span>
+                </div>
+            </div>
+            <div class="row">
+                <i class="fas fa-file"></i>
+                <div class="details">
+                    <span class="filename">File2.jpg</span>
+                    <span class="size">1.8 MB</span>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
