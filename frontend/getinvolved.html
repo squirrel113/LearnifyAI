@@ -2,12 +2,18 @@
 <html lang="en">
 <head>
     <title>Tempname - Get Involved</title>
-    <!-- Your CSS links here -->
-    <link rel="stylesheet" href="css/getinvolved.css">
-    <link rel="stylesheet" href="css/animations.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/color.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link type="image/x-icon" href="images/fav-icon.png" rel="icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <link rel="stylesheet" type="text/css" href="css/getinvolved.css">
+    <link rel="stylesheet" type="text/css" href="css/color.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
     <div id="preloader">
@@ -34,6 +40,9 @@
                             <ul>
                                 <li class="active"><a href="index.html">Home</a></li>
                                 <li><a href="getinvolved.html">Get Involved</a></li>
+                                <div class="login-box">
+                                    <a href="autograde.html" class="button">Grade</a>
+                                </div>
                             </ul>
                         </div>
                     </div>
@@ -152,10 +161,6 @@
                 <div class="row">
                     <!-- FAQ section content here -->
                 </div>
-                <div class="pattern-bg">
-                    <img src="images/faq-bg.png" class="patter" alt="Pattern">
-                    <img src="images/faq-bg.png" class="patter patter-2" alt="Pattern">
-                </div>
             </div>
         </section>
     </main>
@@ -176,6 +181,12 @@
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/sendmessage.js"></script>
+        <script>
+            setTimeout(function () {
+                document.getElementById('preloader').style.display = 'none';
+                document.querySelector('.content').style.display = 'block';
+            }, 1000);
+        </script>
     </footer>
 </body>
 </html>
