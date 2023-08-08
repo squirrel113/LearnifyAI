@@ -134,7 +134,11 @@ h6 {
   color: #fff;
 }
 .banner-title span {
+<<<<<<< Updated upstream
   color: #58f949;
+=======
+  color: #78e72d;
+>>>>>>> Stashed changes
 }
 z .work-img:before {
   background: linear-gradient(135deg, #3329b2 0%, #0ac6d4 100%);
