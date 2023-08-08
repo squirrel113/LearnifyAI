@@ -19,13 +19,13 @@ a:hover {
   background: linear-gradient(to right, #0ac6d4, #3326b1);
 }
 .purple {
-  background: #1c0252;
+  background: #5700aa;
 }
 .bluish-purple {
   background: #19004a;
 }
 .sub-title {
-  color: #0ac6d4;
+  color: #58f949;
 }
 .read-more {
   color: #0ac6d4;
@@ -108,10 +108,10 @@ h6 {
 }
 .nav-menu > ul > li.active > a,
 .nav-menu > ul > li:hover > a {
-  color: #0ac6d4;
+  color: #49ff54;
 }
 .nav-menu > ul > li > a:before {
-  background: #0ac6d4;
+  background:#49ff54;
 }
 .nav-menu > ul ul {
   background: #3326b1;
@@ -134,7 +134,7 @@ h6 {
   color: #fff;
 }
 .banner-title span {
-  color: #0ac6d4;
+  color: #58f949;
 }
 z .work-img:before {
   background: linear-gradient(135deg, #3329b2 0%, #0ac6d4 100%);
@@ -143,7 +143,7 @@ z .work-img:before {
   background: #1c0252;
 }
 .work-box:before {
-  border-color: #3bb2bf;
+  border-color: #58f949;
 }
 .roadmap-icon:before {
   background: linear-gradient(135deg, #3329b2 0%, #0ac6d4 100%);
